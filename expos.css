@@ -22,11 +22,11 @@
 }
 
 #news  {
-  text-align: right;
+  text-align: auto;
   color: #E4002B;
   list-style: none;
   margin: 0;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 .news-img {
@@ -149,6 +149,10 @@ td {
 
 .hide {
 	  display:none;
+}
+
+#store-items {
+  display: inline-grid;
 }
 
 
