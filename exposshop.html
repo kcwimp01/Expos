@@ -1,75 +1,94 @@
 <!DOCTYPE html>
   <html>
-   <header>
+  <header>
     <head>
-      <title>Official Home | Montreal Expos</title>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="expos.css">
-      <div class="d-inline-flex p-2 col-10 bd-highlight"></div>
-      <a href="https://www.mlb.com/" target="_blank">
-        <img id="mlb" src="./pics/mlb-logo.png" alt="Major League Baseball"></a>
-        </div>
-        <h1 id="banner">Montreal Expos<h1>
-          <a href="exposmain.html">
-        <img src="./pics/expos-logo.png" alt="Expos Logo"></a>
-      </head>
+     <title>Team Store | Montreal Expos</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="expos.css">
+     <div class="container" id="banner">
+      <div class="row">
+        <div class="col">
+           <a href="index.html">
+           <img class="img-fluid" src="./pics/expos-logo.svg" alt="Expos Logo"></a>
+         </div>
+         <div class="col">
+           <a href="https://www.mlb.com/" target="_blank">
+             <img  class="float-right img-fluid" src="./pics/mlb-logo.svg" alt="Major League Baseball"></a>
+          </div>
+       </div>
+     </div>
+   </head>
+</header>
 
 <!-- navigation  -->
-          <div class="btn-group" role="group">
-            <nav id="navbar col-6">
-              <a class="btn btn-light btn-lg" href="exposschedule.html" type="button">SCHEDULE</a>
-              <a class="btn btn-light btn-lg" href="tickets.html"  type="button">TICKETS</a>
-              <a class="btn btn-light btn-lg" href="exposroster.html"  type="button">ROSTER<a>
-              <a class="btn btn-light btn-lg" href="exposshop.html"  type="button">SHOP<a>
-              <a class="btn btn-light btn-lg" href="https://www.mlb.com/live-stream-games/?affiliateid=clubMENU"  type="button" target="_blank">MLB.TV<a>
 
-          </nav>
-        </div>
-    </header>
+   <div class="container">
+     <div class="btn-group btn-group-lg flex-wrap" role="group">
+       <a class="btn btn-light btn-lg" href="exposschedule.html" type="button">SCHEDULE</a>
+       <a class="btn btn-light btn-lg" href="expostix.html" type="button">TICKETS</a>
+       <a class="btn btn-light btn-lg" href="exposroster.html" type="button">ROSTER</a>
+       <a class="btn btn-light btn-lg" href="exposshop.html" type="button">SHOP</a>
+       <a class="btn btn-light btn-lg" href="https://www.mlb.com/live-stream-games/?affiliateid=clubMENU" type="button" target="_blank">MLB.TV</a>
+     </div>
+    </div>
+
     <body>
-    <h1>Expos Official Team Store</h1>
-      <h3>Officially Licensed Major League Baseball&#8482 Merchandise of the Montreal Expos</h3>
-        <h5>Caps</h5>
-          <div class="card" style="width: 18rem;">
-            <img src="pics/bluecaps.jpeg" class="card-img-top" alt="Blue Expos Cap">
-            <div class="card-body">
-              <p class="card-text">New Era Montreal Expos 9FIFTY MLB Cooperstown Heather Crisp 3" Snapback Hat </p>
-          <form>
-            <div class="form-row align-items-center">
-              <div class="col-auto my-1">
-                <label for="quantity button">Quantity:</label>
-                <textarea class="form-control" id="form-textarea" rows="1"></textarea>
-                </select>
-              </div>
-              <div class="col-auto my-1">
-                <button type="submit" class="btn btn-primary">Add to Cart</button>
-              </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Expos Official Team Store</h1>
+              <h3>Officially Licensed Merchandise of the Montreal Expos</h3>
             </div>
           </div>
         </div>
-      </form>
-      <form>
-        <div class="card" style="width: 18rem;">
-          <img src="pics/redcaps.jpeg" class="card-img-top" alt="Red Expos Cap">
-          <div class="card-body">
-            <p class="card-text">Red Montreal Expso Snapback Hat </p>
-        <form>
-          <div class="form-row align-items-center">
-            <div class="col-auto my-1">
-              <label for="quantity button">Quantity:</label>
-              <textarea class="form-control" id="form-textarea" rows="1"></textarea>
-              </select>
+
+
+  <div class="container">
+    <h5>Caps</h5>
+      <div class="card-deck">
+        <div class="card" style="width: 10rem;">
+          <img class="card-image-top" src="pics/bluecaps.svg" class="card-img-top" alt="Blue Expos Cap">
+            <div class="card-body">
+              <p class="card-text">Blue Montreal Expos Snapback Hat </p>
+                <div class="form-row align-items-center">
+                  <div class="col">
+                    <label for="quantity button">Quantity:</label>
+                    <textarea class="form-control" id="form-textarea" rows="1"></textarea>
+                  </div>
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn btn-primary">Add to Cart</button>
+                </div>
             </div>
-            <div class="col-auto my-1">
-              <button type="submit" class="btn btn-primary">Add to Cart</button>
-            </div>
-          </div>
         </div>
       </div>
-    </form>
-  </form>
-    <form>
+
+
+
+    <div class="card-deck">
+      <div class="card" style="width: 10rem;">
+        <img class="card-image-top" src="pics/redcaps.svg" class="card-img-top" alt="Blue Expos Cap">
+          <div class="card-body">
+            <p class="card-text">Red Montreal Expos Snapback Hat </p>
+              <div class="form-row align-items-center">
+                <div class="col">
+                  <label for="quantity button">Quantity:</label>
+                  <textarea class="form-control" id="form-textarea" rows="1"></textarea>
+                </div>
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary">Add to Cart</button>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- order form -->
+
+    <div class="container">
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="inputEmail4">Email</label>
@@ -93,14 +112,14 @@
           <label for="inputCity">City</label>
           <input type="text" class="form-control" id="inputCity">
         </div>
-        <div class="form-group col-md-4">
+        <div class="form-group col-md-6">
           <label for="inputState">State</label>
           <select id="inputState" class="form-control">
             <option selected>Choose...</option>
             <option>...</option>
           </select>
         </div>
-        <div class="form-group col-md-2">
+        <div class="form-group col-md-6">
           <label for="inputZip">Zip</label>
           <input type="text" class="form-control" id="inputZip">
         </div>
@@ -115,16 +134,26 @@
       </div>
       <button type="submit" class="btn btn-primary">Sign in</button>
     </form>
+  </div>
+</div>
 
       <div class="container">
         <nav id="follow">
           <h3>Follow Us</h3>
+            <div class="row">
+              <div class="col-4">
               <a href="https://twitter.com/Montreal_Expos?lang=en" target="_blank">
-              <img src="./pics/twitter-logo.png"  alt="Twitter">
+              <img class="img-fluid" src="./pics/twitter-logo.svg"  alt="Twitter">
+            </div>
+            <div class="col-4">
               <a href="https://www.instagram.com/exposmontreal/?hl=en" target="_blank">
-              <img src="./pics/instagram-logo.jpeg"  alt="Instagram">
+              <img class="img-fluid" src="./pics/instagram-logo.svg"  alt="Instagram">
+            </div>
+            <div class="col-4">
               <a href="https://www.facebook.com/ExposNation/" target="_blank">
-              <img src="./pics/facebook-logo.jpg" alt="Facebook"</a>
+              <img class="img-fluid" src="./pics/facebook-logo.svg" alt="Facebook"</a>
+            </div>
+          </div>
           </nav>
       </div>
     </body>

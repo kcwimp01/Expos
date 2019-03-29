@@ -1,47 +1,132 @@
 <!DOCTYPE html>
   <html>
-   <header>
+  <header>
     <head>
-      <title>Schedule | Montreal Expos</title>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="expos.css">
-      <div class="d-inline-flex p-2 col-10 bd-highlight"></div>
-        <a href="https://www.mlb.com/" target="_blank">
-        <img src="./pics/mlb-logo.png" alt="Major League Baseball"></a>
-        <h1 id="banner">Montreal Expos<h1>
-          <a href="exposmain.html">
-        <img src="./pics/expos-logo.png" alt="Expos Logo"></a>
-      </head>
+     <title>Schedule and Results | Montreal Expos</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="expos.css">
+     <div class="container" id="banner">
+      <div class="row">
+        <div class="col">
+           <a href="index.html">
+           <img class="img-fluid" src="./pics/expos-logo.svg" alt="Expos Logo"></a>
+         </div>
+         <div class="col">
+           <a href="https://www.mlb.com/" target="_blank">
+             <img  class="float-right img-fluid" src="./pics/mlblogo.svg" alt="Major League Baseball"></a>
+          </div>
+       </div>
+     </div>
+   </head>
+</header>
 
-      <!-- navigation -->
+<!-- navigation  -->
 
-      <div class="btn-group" role="group">
-        <nav id="navbar col-6">
-          <a class="btn btn-light btn-lg" href="exposschedule.html" type="button">SCHEDULE</a>
-          <a class="btn btn-light btn-lg" href="tickets.html"  type="button">TICKETS</a>
-          <a class="btn btn-light btn-lg" href="exposroster.html"  type="button">ROSTER<a>
-          <a class="btn btn-light btn-lg" href="exposshop.html"  type="button">SHOP<a>
-          <a class="btn btn-light btn-lg" href="https://www.mlb.com/live-stream-games/?affiliateid=clubMENU"  type="button" target="_blank">MLB.TV<a>
-        </nav>
-      </div>
-    </header>
+   <div class="container">
+     <div class="btn-group btn-group-lg flex-wrap" role="group">
+       <a class="btn btn-light btn-lg" href="exposschedule.html" type="button">SCHEDULE</a>
+       <a class="btn btn-light btn-lg" href="expostix.html" type="button">TICKETS</a>
+       <a class="btn btn-light btn-lg" href="exposroster.html" type="button">ROSTER</a>
+       <a class="btn btn-light btn-lg" href="exposshop.html" type="button">SHOP</a>
+       <a class="btn btn-light btn-lg" href="https://www.mlb.com/live-stream-games/?affiliateid=clubMENU" type="button" target="_blank">MLB.TV</a>
+     </div>
+    </div>
 
       <body>
-        <h1>1994 Regular Season Schedule</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1>Regular Season Schedule</h1>
 
-      </body>
+            <div class="calendar" id="weekday">
+              <head>
+                <h1>April</h1>
+              <head>
+            </div>
+          </div>
+      </div>
+      <div class="event" style="--span:2;">
+
+        <ul class="weekdays">
+          <li>
+            <abbr title="S">Sunday</abbr>
+          </li>
+          <li>
+            <abbr title="M">Monday</abbr>
+          </li>
+          <li>
+            <abbr title="T">Tuesday</abbr>
+          </li>
+          <li>
+            <abbr title="W">Wednesday</abbr>
+          </li>
+          <li>
+            <abbr title="T">Thursday</abbr>
+          </li>
+          <li>
+            <abbr title="F">Friday</abbr>
+          </li>
+          <li>
+            <abbr title="S">Saturday</abbr>
+          </li>
+        </ul>
+
+
+  <ul class="day-grid">
+    <li>3</li>
+    <li>4<br>@ HOU<br>L 6-5</li>
+    <li>5<br>@ HOU<br>W 5-1</li>
+    <li>6<br>@ HOU<br>W 9-3</li>
+    <li>7</li>
+    <li>8<br>CHC<br>L 4-0</li>
+    <li>9<br>CHC<br>L 4-3</li>
+    <li>10<br>CHC<br>W 8-2</li>
+    <li>11<br>CIN<br>L 9-4</li>
+    <li>12<br>CIN<br>L 7-1</li>
+    <li>13<br>CIN<br>W 3-2</li>
+    <li>14</li>
+    <li>15<br>@ COL<br>L 6-4</li>
+    <li>16<br>@ COL<br>L 7-3</li>
+    <li>17<br>@ COL<br>L 6-5</li>
+    <li>18<br>@ SF<br>L 2-1</li>
+    <li>19<br>@ SF<br>W 4-3</li>
+    <li>20<br>@ SD<br>W 4-2</li>
+    <li>21<br>@ SD<br>W 5-4</li>
+    <li>22<br>@ LAD<br>W 7-6</li>
+    <li>23<br>@ LAD<br>W 8-6</li>
+    <li>24<br>@ LAD<br>L 7-1</li>
+    <li>25</li>
+    <li>26<br>SF<br>W 7-3</li>
+    <li>27<br>SF<br>W 7-1</li>
+    <li>28</li>
+    <li>29<br>SD<br>W 3-1</li>
+    <li>30<br>SD<br>W 5-3</li>
+    <!-- <li class="month-next">1</li>
+    <li class="month-next">2</li> -->
+  </ul>
+
+  </div>
+</body>
 
     <!-- footer links -->
     <div class="container">
       <nav id="follow">
         <h3>Follow Us</h3>
+          <div class="row">
+            <div class="col-4">
             <a href="https://twitter.com/Montreal_Expos?lang=en" target="_blank">
-            <img src="./pics/twitter-logo.png"  alt="Twitter">
+            <img class="img-fluid" src="./pics/twitter-logo.svg"  alt="Twitter">
+          </div>
+          <div class="col-4">
             <a href="https://www.instagram.com/exposmontreal/?hl=en" target="_blank">
-            <img src="./pics/instagram-logo.jpeg"  alt="Instagram">
+            <img class="img-fluid" src="./pics/instagram-logo.svg"  alt="Instagram">
+          </div>
+          <div class="col-4">
             <a href="https://www.facebook.com/ExposNation/" target="_blank">
-            <img src="./pics/facebook-logo.jpg" alt="Facebook"</a>
+            <img class="img-fluid" src="./pics/facebook-logo.svg" alt="Facebook"</a>
+          </div>
+        </div>
         </nav>
     </div>
   </body>

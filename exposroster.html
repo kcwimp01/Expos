@@ -1,129 +1,139 @@
 <!DOCTYPE html>
   <html>
-   <header>
+  <header>
     <head>
-      <title>Roster | Montreal Expos</title>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="expos.css">
-      <div class="d-inline-flex p-2 col-10 bd-highlight"></div>
-        <a href="https://www.mlb.com/" target="_blank">
-        <img src="./pics/mlb-logo.png" alt="Major League Baseball"></a>
-      </div>
-      <h1 id="banner">Montreal Expos<h1>
-        <a href="exposmain.html">
-      <img src="./pics/expos-logo.png" alt="Expos Logo"></a>
-    </head>  
+     <title> Roster | Montreal Expos</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="expos.css">
+     <div class="container" id="banner">
+      <div class="row">
+        <div class="col">
+           <a href="index.html">
+           <img class="img-fluid" src="./pics/expos-logo.svg" alt="Expos Logo"></a>
+         </div>
+         <div class="col">
+           <a href="https://www.mlb.com/" target="_blank">
+             <img  class="float-right img-fluid" src="./pics/mlblogo.svg" alt="Major League Baseball"></a>
+          </div>
+       </div>
+     </div>
+   </head>
+</header>
 
-      <!-- navigation -->
+<!-- navigation  -->
 
-        <div class="btn-group" role="group">
-          <nav id="navbar col-6">
-            <a class="btn btn-light btn-lg" href="exposschedule.html" type="button">SCHEDULE</a>
-            <a class="btn btn-light btn-lg" href="tickets.html"  type="button">TICKETS</a>
-            <a class="btn btn-light btn-lg" href="exposroster.html"  type="button">ROSTER<a>
-            <a class="btn btn-light btn-lg" href="exposshop.html"  type="button">SHOP<a>
-            <a class="btn btn-light btn-lg" href="https://www.mlb.com/live-stream-games/?affiliateid=clubMENU"  type="button" target="_blank">MLB.TV<a>
-
-        </nav>
-      </div>
-    </header>
+   <div class="container">
+     <div class="btn-group btn-group-lg flex-wrap" role="group">
+       <a class="btn btn-light btn-lg" href="exposschedule.html" type="button">SCHEDULE</a>
+       <a class="btn btn-light btn-lg" href="expostix.html" type="button">TICKETS</a>
+       <a class="btn btn-light btn-lg" href="exposroster.html" type="button">ROSTER</a>
+       <a class="btn btn-light btn-lg" href="exposshop.html" type="button">SHOP</a>
+       <a class="btn btn-light btn-lg" href="https://www.mlb.com/live-stream-games/?affiliateid=clubMENU" type="button" target="_blank">MLB.TV</a>
+     </div>
+    </div>
 
     <body>
-      <h1>Expos Players and Coaches</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+        <h1>Expos Players and Coaches</h1>
+      </div>
+    </div>
+  </div>
         <div class="container">
-
-        </div>
-      <div class="roster-container">
-        <div id="roster">
-          <table id="roster-table">
-            <h2><img src="pics/felipealou.jpeg">Manager: Felipe Alou</h2>
-              <h3 id="pitchers-table">Pitchers<h3>
+          <div id="roster">
+            <h5><img class="img-fluid" src="pics/felipealou.svg">Manager: Felipe Alou</h5>
+            <h5>Bench Coach: Tim Johnson</h5>
+            <h5>Pitching Coach: Joe Kerrigan</h5>
+            <h5>Hitting Coach: Tommy Harper</h5>
+            <h5>First Base Coach: Luis Pujols</h5>
+            <h5>Third Base Coach: Jerry Manuel</h5>
+            <h5>Bullpen Coach: Piere Arsenault</h5>
+          <table>
+            <h3 id="pitchers-table">Pitchers<h3>
+              <th id="headshot" index="0"></th>
+              <th id="number" index="1">#</th>
+              <th id="first-name" index="2">First Name</th>
+              <th id="last-name" index="3">Last Name</th>
+              <th id="throws" index="4">Throws</th>
                 <tr>
-                  <th id="headshot" index="0"></th>
-                  <th id="number" index="1">#</th>
-                  <th id="first-name" index="2">First Name</th>
-                  <th id="last-name" index="3">Last Name</th>
-                  <th id="throws" index="4">Throws</th>
-                </tr>
-                <tr>
-                  <td><img src="pics/boucher.jpeg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/boucher.svg" index="0"></img></td>
                   <td index="1">38</td>
                   <td index="2">Dennis</td>
                   <td index="3">Boucher</td>
                   <td index="4">Left</td>
                 </tr>
                 <tr>
-                  <td><img src="pics/fassero.jpeg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/fassero.svg" index="0"></img></td>
                   <td index="1">13</td>
                   <td index="2">Jeff</td>
                   <td index="3">Fassero</td>
                   <td index="4">Left</td>
                 </tr>
                 <tr>
-                  <td><img src="pics/butchhenry.jpg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/butchhenry.svg" index="0"></img></td>
                   <td index="1">27</td>
                   <td index="2">Butch</td>
                   <td index="3">Henry</td>
                   <td index="4">Left</td>
                 </tr>
                 <tr>
-                  <td><img src="pics/gilheredia.jpeg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/gilheredia.svg" index="0"></img></td>
                   <td index="1">34</td>
                   <td index="2">Gil</td>
                   <td index="3">Heredia</td>
                   <td index="4">Right</td>
                 </tr>
                 <tr>
-                  <td><img src="pics/kenhill.jpg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/kenhill.svg" index="0"></img></td>
                   <td index="1">44</td>
                   <td index="2">Ken</td>
                   <td index="3">Hill</td>
                   <td index="4">Right</td>
                 </tr>
                 <tr>
-                  <td><img src="pics/pedromartinez.jpg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/pedromartinez.svg" index="0"></img></td>
                   <td index="1">45</td>
                   <td index="2">Pedro</td>
                   <td index="3">Martinez</td>
                   <td index="4">Right</td>
                 </tr>
                 <tr>
-                  <td><img src="pics/melrojas.jpg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/melrojas.svg" index="0"></img></td>
                   <td index="1">51</td>
                   <td index="2">Mel</td>
                   <td index="3">Rojas</td>
                   <td index="4">Right</td>
                 </tr>
                 <tr>
-                  <td><img src="pics/kirkreuter.jpg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/kirkreuter.svg" index="0"></img></td>
                   <td index="1">42</td>
                   <td index="2">Kirk</td>
                   <td index="3">Reuter</td>
                   <td index="4">Left</td>
                 </tr>
                 <tr>
-                  <td><img src="pics/timscott.jpeg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/timscott.svg" index="0"></img></td>
                   <td index="1">54</td>
                   <td index="2">Tim</td>
                   <td index="3">Scott</td>
                   <td index="4">Right</td>
                 </tr>
                 <tr>
-                  <td><img src="pics/jeffshaw.jpg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/jeffshaw.svg" index="0"></img></td>
                   <td index="1">31</td>
                   <td index="2">Jeff</td>
                   <td index="3">Shaw</td>
                   <td index="4">Right</td>
                 </tr>
                 <tr>
-                  <td><img src="pics/johnwetteland.jpg" index="0"></img></td>
+                  <td><img class="img-fluid" src="pics/johnwetteland.svg" index="0"></img></td>
                   <td index="1">57</td>
                   <td index="2">John</td>
                   <td index="3">Wetteland</td>
                   <td index="4">Right</td>
                 </tr>
-
               </table>
               <table>
                 <h3 id="catchers-table">Catchers<h3>
@@ -136,7 +146,7 @@
                     <th id="throws" index="5">Throws</th>
                   </tr>
                   <tr>
-                    <td><img src="pics/darrinfletcher.jpg" index="0"></img></td>
+                    <td><img class="img-fluid" src="pics/darrinfletcher.svg" index="0"></img></td>
                     <td index="1">24</td>
                     <td index="2">Darrin</td>
                     <td index="3">Fletcher</td>
@@ -144,7 +154,7 @@
                     <td index="5">Right</td>
                   </tr>
                   <tr>
-                    <td><img src="pics/timspehr.jpeg" index="0"></img></td>
+                    <td><img class="img-fluid" src="pics/timspehr.svg" index="0"></img></td>
                     <td index="1">2</td>
                     <td index="2">Tim</td>
                     <td index="3">Spehr</td>
@@ -152,7 +162,7 @@
                     <td index="5">Right</td>
                   </tr>
                   <tr>
-                    <td><img src="pics/lennywebster.jpg" index="0"></img></td>
+                    <td><img class="img-fluid" src="pics/lennywebster.svg" index="0"></img></td>
                     <td index="1">25</td>
                     <td index="2">Lenny</td>
                     <td index="3">Webster</td>
@@ -171,7 +181,7 @@
                     <th id="throws" index="5">Throws</th>
                   </tr>
                   <tr>
-                    <td><img src="pics/juanbell.jpg" index="0"></img></td>
+                    <td><img class="img-fluid" src="pics/juanbell.svg" index="0"></img></td>
                     <td index="1">23</td>
                     <td index="2">Juan</td>
                     <td index="3">Bell</td>
@@ -179,7 +189,7 @@
                     <td index="5">Right</td>
                   </tr>
                   <tr>
-                    <td><img src="pics/benavides.jpg" index="0"></img></td>
+                    <td><img class="img-fluid" src="pics/benavides.svg" index="0"></img></td>
                     <td index="1">15</td>
                     <td index="2">Freddie</td>
                     <td index="3">Benavides</td>
@@ -187,7 +197,7 @@
                     <td index="5">Right</td>
                   </tr>
                   <tr>
-                    <td><img src="pics/seanberry.jpg" index="0"></img></td>
+                    <td><img class="img-fluid" src="pics/seanberry.svg" index="0"></img></td>
                     <td index="1">5</td>
                     <td index="2">Sean</td>
                     <td index="3">Berry</td>
@@ -195,7 +205,7 @@
                     <td index="5">Right</td>
                   </tr>
                   <tr>
-                    <td><img src="pics/wilcordero.jpg" index="0"></img></td>
+                    <td><img class="img-fluid" src="pics/wilcordero.svg" index="0"></img></td>
                     <td index="1">12</td>
                     <td index="2">Wil</td>
                     <td index="3">Cordero</td>
@@ -203,7 +213,7 @@
                     <td index="5">Right</td>
                   </tr>
                   <tr>
-                    <td><img src="pics/clifffloyd.jpg" index="0"></img></td>
+                    <td><img class="img-fluid" src="pics/clifffloyd.svg" index="0"></img></td>
                     <td index="1">30</td>
                     <td index="2">Cliff</td>
                     <td index="3">FLoyd</td>
@@ -211,7 +221,7 @@
                     <td index="5">Right</td>
                   </tr>
                   <tr>
-                    <td><img src="pics/mikelansing.jpg" index="0"></img></td>
+                    <td><img class="img-fluid" src="pics/mikelansing.svg" index="0"></img></td>
                     <td index="1">3</td>
                     <td index="2">Mike</td>
                     <td index="3">Lansing</td>
@@ -230,7 +240,7 @@
                       <th id="throws" index="5">Throws</th>
                     </tr>
                     <tr>
-                      <td><img src="pics/moisesalou.jpg" index="0"></img></td>
+                      <td><img class="img-fluid" src="pics/moisesalou.svg" index="0"></img></td>
                       <td index="1">18</td>
                       <td index="2">Moises</td>
                       <td index="3">Alou</td>
@@ -238,7 +248,7 @@
                       <td index="5">Right</td>
                     </tr>
                     <tr>
-                      <td><img src="pics/loufrazier.jpg" index="0"></img></td>
+                      <td><img class="img-fluid" src="pics/loufrazier.svg" index="0"></img></td>
                       <td index="1">7</td>
                       <td index="2">Lou</td>
                       <td index="3">Frazier</td>
@@ -246,7 +256,7 @@
                       <td index="5">Right</td>
                     </tr>
                     <tr>
-                      <td><img src="pics/marquisgrissom.jpeg" index="0"></img></td>
+                      <td><img class="img-fluid" src="pics/marquisgrissom.svg" index="0"></img></td>
                       <td index="1">9</td>
                       <td index="2">Marquis</td>
                       <td index="3">Grissom</td>
@@ -254,7 +264,7 @@
                       <td index="5">Right</td>
                     </tr>
                     <tr>
-                      <td><img src="pics/larrywalker.jpeg" index="0"></img></td>
+                      <td><img class="img-fluid" src="pics/larrywalker.svg" index="0"></img></td>
                       <td index="1">33</td>
                       <td index="2">Larry</td>
                       <td index="3">Walker</td>
@@ -262,7 +272,7 @@
                       <td index="5">Right</td>
                     </tr>
                     <tr>
-                      <td><img src="pics/rondellwhite.jpg" index="0"></img></td>
+                      <td><img src="pics/rondellwhite.svg" index="0"></img></td>
                       <td index="1">22</td>
                       <td index="2">Rondell</td>
                       <td index="3">White</td>
@@ -272,18 +282,27 @@
                   </table>
               </div>
             </div>
-          </body>
+          </div>
+        </body>
 
     <!-- footer links -->
     <div class="container">
       <nav id="follow">
         <h3>Follow Us</h3>
+          <div class="row">
+            <div class="col-4">
             <a href="https://twitter.com/Montreal_Expos?lang=en" target="_blank">
-            <img src="./pics/twitter-logo.png"  alt="Twitter">
+            <img class="img-fluid" src="./pics/twitter-logo.svg"  alt="Twitter">
+          </div>
+          <div class="col-4">
             <a href="https://www.instagram.com/exposmontreal/?hl=en" target="_blank">
-            <img src="./pics/instagram-logo.jpeg"  alt="Instagram">
+            <img class="img-fluid" src="./pics/instagram-logo.svg"  alt="Instagram">
+          </div>
+          <div class="col-4">
             <a href="https://www.facebook.com/ExposNation/" target="_blank">
-            <img src="./pics/facebook-logo.jpg" alt="Facebook"</a>
+            <img class="img-fluid" src="./pics/facebook-logo.svg" alt="Facebook"</a>
+          </div>
+        </div>
         </nav>
     </div>
 
